@@ -1,0 +1,8 @@
+train: /content/drive/MyDrive/yolo_v5/data/drowsy_training/train/images
+val: /content/drive/MyDrive/yolo_v5/data/drowsy_training/test/images
+test: /content/drive/MyDrive/yolo_v5/data/drowsy_training/test/images
+
+# Classes
+nc: 4  # number of classes
+names: ['normal', 'drowsy','drowsy#2', 'yawning']  # class names
+
